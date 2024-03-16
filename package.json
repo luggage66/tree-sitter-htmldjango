@@ -24,5 +24,16 @@
   },
   "devDependencies": {
     "tree-sitter-cli": "^0.20.4"
-  }
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.htmldjango",
+      "file-types": [
+        "html"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ]
+    }
+  ]
 }
